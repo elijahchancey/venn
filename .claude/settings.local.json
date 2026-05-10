@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open \"https://www.youtube.com/watch?v=IACHfKmZMr8\")",
+      "Bash(open \"https://www.youtube.com/watch?v=Hm-ZIiwiN1o\")",
+      "Bash(open \"https://paulgraham.com/before.html\")"
+    ]
+  }
+}
