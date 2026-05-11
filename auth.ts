@@ -1,12 +1,12 @@
 import NextAuth from "next-auth"
-import { PgAdapter } from "@auth/pg-adapter"
+import PostgresAdapter from "@auth/pg-adapter"
 import { Pool } from "@neondatabase/serverless"
 import Reddit from "next-auth/providers/reddit"
 
 const pool = new Pool({ connectionString: process.env.DATABASE_URL })
 
 export const { handlers, signIn, signOut, auth } = NextAuth({
-  adapter: PgAdapter(pool),
+  adapter: PostgresAdapter(pool),
   providers: [
     Reddit({
       clientId: process.env.REDDIT_CLIENT_ID!,
