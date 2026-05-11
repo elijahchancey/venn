@@ -13,7 +13,13 @@
       "Bash(vercel whoami *)",
       "Bash(/opt/homebrew/opt/libpq/bin/psql *)",
       "Bash(openssl rand *)",
-      "Bash(vercel env *)"
+      "Bash(vercel env *)",
+      "Skill(investigate)",
+      "Skill(ship)",
+      "Bash(vercel ls *)",
+      "Bash(vercel inspect *)",
+      "Bash(vercel list *)",
+      "Bash(vercel logs *)"
     ]
   }
 }
