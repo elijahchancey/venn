@@ -3,7 +3,17 @@
     "allow": [
       "Bash(open \"https://www.youtube.com/watch?v=IACHfKmZMr8\")",
       "Bash(open \"https://www.youtube.com/watch?v=Hm-ZIiwiN1o\")",
-      "Bash(open \"https://paulgraham.com/before.html\")"
+      "Bash(open \"https://paulgraham.com/before.html\")",
+      "Bash(npm --version)",
+      "Bash(npx --version)",
+      "Bash(npx create-next-app@latest *)",
+      "Bash(npm pack *)",
+      "Bash(npm info *)",
+      "Bash(npm install *)",
+      "Bash(vercel whoami *)",
+      "Bash(/opt/homebrew/opt/libpq/bin/psql *)",
+      "Bash(openssl rand *)",
+      "Bash(vercel env *)"
     ]
   }
 }
