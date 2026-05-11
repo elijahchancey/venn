@@ -9,7 +9,11 @@
       "Bash(npx create-next-app@latest *)",
       "Bash(npm pack *)",
       "Bash(npm info *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(vercel whoami *)",
+      "Bash(/opt/homebrew/opt/libpq/bin/psql *)",
+      "Bash(openssl rand *)",
+      "Bash(vercel env *)"
     ]
   }
 }

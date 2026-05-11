@@ -1,3 +1,5 @@
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+
 -- Auth.js required tables
 CREATE TABLE IF NOT EXISTS users (
   id TEXT PRIMARY KEY DEFAULT gen_random_uuid()::TEXT,
